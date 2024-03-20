@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css"/>
+
+<body>
+    <!-- TIMER -->
+
+  <h2 id="taskmanager">TASK MANAGER</h2>
+    <div class="Timer"> 
+        <span id="seconds">00:00</span>
+   </div>
+
+   <div class="startstop">
+    <button onclick="StartTimer()">Start</button>
+    <button onclick="StopTimer()">Stop</button>
+    <button onclick="ResetTimer()">Reset</button>
+   </div>
+    <div id ="label1">
+
+    <label>TASK :</label><BR>
+     <input id="input-task"  type="text"/><br><br>
+
+    </div>
+
+    <div id="label2">
+
+    <label>DESCRIPTION :</label><BR>
+    <input id="input-desc" type ="text"/><br><BR>
+
+</div>
+
+    <button id="button1" onclick="AddTask()"> Add Task</button><br><br>
+    
+    <div id="box1">
+    <table  border="3px solid black">
+        <thead>
+        <tr>
+            <div class="box">
+        <th id="task1">TASK</th>
+        <th id="task2">DESCRIPTION</th>
+        <th id="task3">TIMER</th>
+    </div>
+    </thead>
+    <tbody id="show-table"></tbody>
+    </table>
+ </div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</head>
+</html>

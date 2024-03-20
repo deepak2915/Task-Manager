@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("STYLISH.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+    height: 95vh;
+    
+
+}
+#taskmanager{
+margin-left: 45%;
+font-family: Algerian;
+
+}
+#label1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top:35px ;
+
+}
+#label2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+#button1{
+    margin-top: 10px;
+    background-color:lightgreen;
+    margin-left: 48%;
+}
+#box1{
+    margin-top: 5px ;
+    margin-left: 43%;
+
+}
+/* startstop */
+#seconds{
+    margin-left:49%;
+}
+.startstop{
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.box{
+    margin-top: 25px;
+    margin-left: 45%;
+}
+
+/* TASKS */
+#task1{
+    padding: 10px;
+    font-weight: bold;
+}
+#task2{
+    padding: 10px;
+    font-weight: bold;
+}
+#task3{
+    padding: 10px;
+    font-weight: bold;
+}
